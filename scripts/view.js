@@ -1,7 +1,7 @@
 view();
 function view() {
     let html = '';
-    html +=`
+    html +=/*html*/`
 <section class="main">
 <nav>
     <img class="logo" src="scripts/images/Logo.png" alt="Marius Henriksen's logo">
