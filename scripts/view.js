@@ -10,7 +10,7 @@ function view() {
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact me</a></li>
     </ul>
-    <button class="hamburger" id="hamburger">
+    <button class="hamburger" id="hamburger" onclick="toggleButton()">
         <i class="fa-solid fa-bars"></i>
     </button>
 </nav>
@@ -90,3 +90,5 @@ function view() {
 `
 document.getElementById('app').innerHTML = html;
 }
+
+
