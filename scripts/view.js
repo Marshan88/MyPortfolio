@@ -4,7 +4,7 @@ function view() {
     html +=/*html*/`
 <section class="main">
 <nav>
-    <img class="logo" src="scripts/images/Logo.png" alt="Marius Henriksen's logo">
+    <img class="logo" src="scripts/images/Logo.png" alt="logo">
     <ul id="navList">
         <li><a href="#about-me">About me</a></li>
         <li><a href="#projects">Projects</a></li>
