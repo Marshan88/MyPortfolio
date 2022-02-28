@@ -53,6 +53,14 @@ p {
     font-weight: 300;
 }
 
+a:hover {
+    color: orange;
+}
+
+svg:hover {
+    fill: orange;
+}
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
@@ -80,8 +88,7 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .button:hover {
