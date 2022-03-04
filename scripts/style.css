@@ -88,11 +88,16 @@ svg:hover {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
-    cursor: pointer;    
+    cursor: pointer;
+}
+
+.button > a:hover {
+    color: white;
 }
 
 .button:hover {
     background-color: #ef744b;
+    color: orange;
 }
 
 .button:active {
@@ -179,6 +184,11 @@ a {
 
 .hamburger {
     display: none;
+}
+
+.hamburger:hover {
+    color: orange;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {
