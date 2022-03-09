@@ -19,8 +19,8 @@ footer {
     text-align: center;
     color: white;
     padding: 80px;
-
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ ul {
     font-size: 30px;
 }
 
-li{
+li {
     text-decoration: none;
 }
 
@@ -132,16 +132,6 @@ svg:hover {
     padding: 80px;
 }
 
-/* .headshot {
-    width: 300px;
-    border-radius: 150;
-} */
-
-/* .headshot-container {
-    display: flex;
-    align-items: center;
-} */
-
 .project-card {
     width: 300px;
     height: 500px;
@@ -221,5 +211,4 @@ a {
     .logo {
         display: none;
     }
-
 }

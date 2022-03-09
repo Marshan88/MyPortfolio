@@ -38,9 +38,6 @@ function view() {
     <p>My name is Marius Henriksen</p>
     <p>I am a student at GET academy</p>
 </div>
-<!-- <div class="headshot-container">
-    <img class="headshot" src="src/images/fillnamehere.jpg" alt="Marius Henriksen image"/>
-</div> -->
 </section>
 <section class="sub-section-alternative" id="projects">
 <h2>Projects</h2>
