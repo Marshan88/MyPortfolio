@@ -113,6 +113,10 @@ svg:hover {
     margin: 20px;
 }
 
+.reverse {
+    transform: scale(-1,1);
+}
+
 .logo {
     height: 120px;
     margin: 30px;
