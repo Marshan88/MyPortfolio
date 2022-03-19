@@ -54,9 +54,9 @@ function view() {
         <img class="project-image" src="scripts/images/Tetris.PNG" alt="Tetris Image" />
         <h3>Tetris</h3>
         <hr/>
-        <p class="subtext">C# Tetris</p>
+        <p class="subtext">In progress..</p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://marshan88.github.io/Tetris/">View</a></p>
+        <p class="subtext"><a class="project-link">View</a></p>
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker-game Image" />
