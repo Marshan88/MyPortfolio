@@ -43,7 +43,7 @@ function view() {
 <h2>Projects</h2>
 <div class="project-container">
     <div class="project-card">
-        <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Project image one" />
+        <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Zelda Image" />
         <h3>Zelda - Missing Links</h3>
         <hr/>
         <p class="subtext">Arrows to move and space for bomb.</p>
@@ -51,15 +51,15 @@ function view() {
         <p class="subtext"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
     </div>
     <div class="project-card">
-        <img class="project-image" src="scripts/images/Tetris.PNG" alt="Project image two" />
+        <img class="project-image" src="scripts/images/Tetris.PNG" alt="Tetris Image" />
         <h3>Tetris</h3>
         <hr/>
-        <p class="subtext">In progress</p>
+        <p class="subtext">C# Tetris</p>
         <hr/>
-        <p class="subtext"><a class="project-link">View</a></p>
+        <p class="subtext"><a class="project-link" href="https://marshan88.github.io/Tetris/">View</a></p>
     </div>
     <div class="project-card">
-        <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Project image three" />
+        <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker-game Image" />
         <h3>Clicker game</h3>
         <hr/>
         <p class="subtext">One of my first projects.<br>It is
@@ -68,7 +68,7 @@ function view() {
         <p class="subtext"><a class="project-link" href="https://marshan88.github.io/Oblig/index">View</a></p>
     </div>
     <div class="project-card">
-        <img class="project-image" src="scripts/images/CSS.PNG" alt="Project image four" />
+        <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling-app Image" />
         <h3>Starling</h3>
         <hr/>
         <p class="subtext">An app called Starling,<br>a team project that I worked on for 8 weeks.<br>
