@@ -36,7 +36,7 @@ function view() {
     <h2>About Me</h2>
     <p>Hello world</p>
     <p>My name is Marius Henriksen</p>
-    <p>I am a student at GET academy</p>
+    <p>I am a student at GET Academy</p>
 </div>
 </section>
 <section class="sub-section-alternative" id="projects">
