@@ -6,7 +6,7 @@ function view() {
 <section class="main">
 <nav>
     <img class="logo" src="scripts/images/Logo.png" alt="logo">
-    <ul>
+    <ul id="navList">
         <li><a href="#about-me" class="navList">About me</a></li>
         <li><a href="#projects" class="navList">Projects</a></li>
         <li><a href="#contact" class="navList">Contact me</a></li>
