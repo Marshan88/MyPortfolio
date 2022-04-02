@@ -2,13 +2,14 @@ view();
 function view() {
     let html = '';
     html +=/*html*/`
+<div class="transparent-filter">
 <section class="main">
 <nav>
     <img class="logo" src="scripts/images/Logo.png" alt="logo">
-    <ul id="navList">
-        <li><a href="#about-me" class="hoverFade">About me</a></li>
-        <li><a href="#projects" class="hoverFade">Projects</a></li>
-        <li><a href="#contact" class="hoverFade">Contact me</a></li>
+    <ul>
+        <li><a href="#about-me" class="navList">About me</a></li>
+        <li><a href="#projects" class="navList">Projects</a></li>
+        <li><a href="#contact" class="navList">Contact me</a></li>
     </ul>
     <button class="hamburger" id="hamburger" onclick="toggleButton()">
         <i class="fa-solid fa-bars"></i>
@@ -48,7 +49,7 @@ function view() {
         <hr/>
         <p class="subtext">Arrows to move and space for bomb.</p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/Tetris.PNG" alt="Tetris Image" />
@@ -56,7 +57,7 @@ function view() {
         <hr/>
         <p class="subtext">Tetris C#</p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://github.com/Marshan88/TetrisGame">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://github.com/Marshan88/TetrisGame">View</a></p>
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker-game Image" />
@@ -65,23 +66,24 @@ function view() {
         <p class="subtext">One of my first projects.<br>It is
             what it is..</p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://marshan88.github.io/Oblig/index">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Oblig/index">View</a></p>
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling-app Image" />
         <h3>Starling</h3>
         <hr/>
-        <p class="subtext">An app called Starling,<br>a team project that I worked on for 8 weeks.<br>
-            Measures teams working on a project with Tuckman's Theory (invis devtool top left)</p>
+        <p class="subtext">A team project that I worked on for 8 weeks.
+            Measures teams working on a project with Tuckman's Theory<br>(invis devtool top left)</p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://marcus-bengtsson.github.io/GET-Modul-2-Oppgave/">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marcus-bengtsson.github.io/GET-Modul-2-Oppgave/">View</a></p>
     </div>
 </div>
 </section>
+</div>
 <footer id="contact">
 <h2>Contact me</h2>
 <p>mariusshenriksen@gmail.com</p>
 </footer>
 `
-document.getElementById('app').innerHTML = html;
+    document.getElementById('app').innerHTML = html;
 }
