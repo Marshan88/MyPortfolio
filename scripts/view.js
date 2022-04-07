@@ -47,7 +47,7 @@ function view() {
         <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Zelda Image" />
         <h3>Zelda - Missing Links</h3>
         <hr/>
-        <p class="subtext">How to play:<br> Arrows to move and space for bomb.</p>
+        <p class="subtext">How to play:<br>-Arrows to move<br>-Space for bomb.</p>
         <hr/>
         <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
     </div>
