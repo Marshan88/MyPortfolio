@@ -53,7 +53,7 @@ function view() {
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/CsharpGames.PNG" alt="C# Image" />
-        <h3>App viewer</h3>
+        <h3>C# projects</h3>
         <hr/>
         <p class="subtext">Take a look at the different C# projects im working on</p>
         <hr/>
