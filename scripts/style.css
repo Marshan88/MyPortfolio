@@ -3,15 +3,20 @@ body {
     margin: 0;
 }
 
-section {
-    background-color: white;
-}
-
 .main {
     background-color: #1c1d25;
     height: 100vh;
     color: white;
     font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    background-color: white;
 }
 
 .sub-section-alternative{
@@ -22,6 +27,30 @@ section {
     /* background-color: rgb(241, 221, 196); */
 }
 
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 15px rgb(83, 83, 83);
+    margin: 10px;
+    /* background-color: rgb(251, 246, 240); */
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
 footer {
     background-color: black;
     text-align: center;
@@ -29,17 +58,13 @@ footer {
     padding: 80px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 ul {
     display: flex;
     list-style-type: none;
-    width: 450px;
     justify-content: space-around;
-    font-size: 25px;
+    width: 550px;
+    font-size: 30px;
+    justify-content: space-around;
         
 }
 
@@ -77,7 +102,7 @@ svg:hover {
     }
 
 .subtext-link {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .main-area {
@@ -141,30 +166,6 @@ svg:hover {
     display: flex;
     justify-content: space-around;
     padding: 80px;
-}
-
-.project-card {
-    width: 300px;
-    height: 500px;
-    box-shadow: 5px 5px 15px rgb(83, 83, 83);
-    margin: 10px;
-    /* background-color: rgb(251, 246, 240); */
-}
-
-.project-container {
-    display: flex;
-    justify-content: space-around;
-}
-.project-image {
-    margin-top: 25px;
-    width: 250px;
-    border-radius: 5px;
-    height: auto;
-}
-
-.project-link {
-    text-decoration: none;
-    color: #ef744b;
 }
 
 @media only screen and (max-width: 1000px) {

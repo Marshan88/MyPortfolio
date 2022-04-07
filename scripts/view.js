@@ -47,7 +47,7 @@ function view() {
         <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Zelda Image" />
         <h3>Zelda - Missing Links</h3>
         <hr/>
-        <p class="subtext">Arrows to move and space for bomb.</p>
+        <p class="subtext">How to play:<br> Arrows to move and space for bomb.</p>
         <hr/>
         <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
     </div>
@@ -72,8 +72,8 @@ function view() {
         <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling-app Image" />
         <h3>Starling</h3>
         <hr/>
-        <p class="subtext">A team project that I worked on for 8 weeks.
-            Measures teams working on a project with Tuckman's Theory<br>(invis devtool top left)</p>
+        <p class="subtext">A team project I was a part of, deadline was 8 weeks.
+            Measures teams working on a project with Tuckman's Theory<br>invisible devtool top left</p>
         <hr/>
         <p class="subtext-link"><a class="project-link" href="https://marcus-bengtsson.github.io/GET-Modul-2-Oppgave/">View</a></p>
     </div>
