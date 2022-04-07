@@ -75,7 +75,7 @@ function view() {
         <p class="subtext">A team project I was a part of, deadline was 8 weeks.
             Measures teams working on a project with Tuckman's Theory<br>invisible devtool top left</p>
         <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marcus-bengtsson.github.io/GET-Modul-2-Oppgave/">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Starling">View</a></p>
     </div>
 </div>
 </section>
