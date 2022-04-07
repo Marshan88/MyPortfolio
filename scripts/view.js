@@ -52,15 +52,15 @@ function view() {
         <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
     </div>
     <div class="project-card">
-        <img class="project-image" src="scripts/images/Tetris.PNG" alt="Tetris Image" />
-        <h3>Tetris</h3>
+        <img class="project-image" src="scripts/images/CsharpGames.PNG" alt="C# Image" />
+        <h3>App viewer</h3>
         <hr/>
-        <p class="subtext">Tetris C#</p>
+        <p class="subtext">Take a look at the different C# projects im working on</p>
         <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://github.com/Marshan88/TetrisGame">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://github.com/Marshan88/CSharpProjects">View</a></p>
     </div>
     <div class="project-card">
-        <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker-game Image" />
+        <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker game Image" />
         <h3>Clicker game</h3>
         <hr/>
         <p class="subtext">One of my first projects.<br>It is
@@ -69,11 +69,11 @@ function view() {
         <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Oblig/index">View</a></p>
     </div>
     <div class="project-card">
-        <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling-app Image" />
+        <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling app image" />
         <h3>Starling</h3>
         <hr/>
         <p class="subtext">A team project I was a part of, deadline was 8 weeks.
-            Measures teams working on a project with Tuckman's Theory<br>invisible devtool top left</p>
+            Measures teams working on a project with Tuckman's Theory.<br>invisible devtool top left</p>
         <hr/>
         <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Starling">View</a></p>
     </div>
