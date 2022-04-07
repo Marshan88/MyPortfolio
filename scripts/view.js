@@ -66,7 +66,7 @@ function view() {
         <p class="subtext">One of my first projects.<br>It is
             what it is..</p>
         <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Oblig/index">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/ClickerGame">View</a></p>
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling app image" />
