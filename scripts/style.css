@@ -24,7 +24,6 @@ section {
     flex-direction: column;
     text-align: center;
     padding: 80px;
-    /* background-color: rgb(241, 221, 196); */
 }
 
 .project-card {
@@ -32,7 +31,6 @@ section {
     height: 500px;
     box-shadow: 5px 5px 15px rgb(83, 83, 83);
     margin: 10px;
-    /* background-color: rgb(251, 246, 240); */
 }
 
 .project-container {
@@ -217,6 +215,11 @@ a {
 
     .logo {
         display: none;
+    }
+
+    h1 {
+        display: flex;
+        flex-direction: column;
     }
 
     .project-container {

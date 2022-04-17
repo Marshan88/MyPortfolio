@@ -82,7 +82,7 @@ function view() {
 </div>
 <footer id="contact">
 <h2>Contact me</h2>
-<p>mariusshenriksen@gmail.com</p>
+<p><a href="mailto:mariusshenriksen@gmail.com">mariusshenriksen@gmail.com</a></p>
 </footer>
 `
     document.getElementById('app').innerHTML = html;
