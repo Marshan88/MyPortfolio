@@ -200,10 +200,20 @@ a {
         border: 0;
         background-color: transparent;
         color: white;
-        font-size: 30px;
+        font-size: 50px;
         margin: 20px;
         align-self: flex-end;
     }
+@media only screen and (max-width:10000px) {
+    .navList {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:10000px) {
+    .project-link {
+        font-size: 30px;
+    }
+}
 
     ul {
         display: none;
