@@ -229,5 +229,6 @@ a {
     
     .project-card {
         zoom: 200%;
+        margin: 20px;
     }
 }

@@ -45,18 +45,22 @@ function view() {
 <h2>Projects</h2>
 <div class="project-container">
     <div class="project-card">
-        <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Zelda Image" />
-        <h3>Zelda - Missing Links</h3>
+        <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling app image" />
+        <h3>Starling</h3>
         <hr/>
-        <p class="subtext">How to play:<br>-Arrows to move<br>-Space for bomb.</p>
+        <p class="subtext">Team project with a deadline of 8 weeks.
+            The goal of the application is to measure different
+            groups development according to Tuckman's theory,
+            using surveys.</p>
         <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Starling">View</a></p>
     </div>
     <div class="project-card">
         <img class="project-image" src="scripts/images/CsharpGames.PNG" alt="C# Image" />
         <h3>C# projects</h3>
         <hr/>
-        <p class="subtext">Take a look at the different C# projects im working on</p>
+        <p class="subtext">Here you can take a look at my C# projects.<br>
+            This link takes you to github.</p>
         <hr/>
         <p class="subtext-link"><a class="project-link" href="https://github.com/Marshan88/CSharpProjects">View</a></p>
     </div>
@@ -64,19 +68,18 @@ function view() {
         <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker game Image" />
         <h3>Clicker game</h3>
         <hr/>
-        <p class="subtext">One of my first projects.<br>It is
+        <p class="subtext">One of my first projects,<br>it is
             what it is..</p>
         <hr/>
         <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/ClickerGame">View</a></p>
     </div>
-    <div class="project-card">
-        <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling app image" />
-        <h3>Starling</h3>
+        <div class="project-card">
+        <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Zelda Image" />
+        <h3>Zelda - Missing Links</h3>
         <hr/>
-        <p class="subtext">A team project I was a part of, deadline was 8 weeks.
-            Measures teams working on a project with Tuckman's Theory.<br>invisible devtool top left</p>
+        <p class="subtext">How to play:<br>-Arrows to move<br>-Space for bomb<br></p>
         <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Starling">View</a></p>
+        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
     </div>
 </div>
 </section>
