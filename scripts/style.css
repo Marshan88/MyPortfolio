@@ -226,8 +226,8 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-
-    .project-link {
-        font-size: 30px;
+    
+    .project-card {
+        zoom: 200%;
     }
 }
