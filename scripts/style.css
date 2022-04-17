@@ -145,7 +145,7 @@ svg:hover {
 }
 
 .socials {
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 
 .social {
@@ -166,13 +166,6 @@ svg:hover {
     display: flex;
     justify-content: space-around;
     padding: 80px;
-}
-
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
 
 hr {
@@ -204,21 +197,12 @@ a {
         margin: 20px;
         align-self: flex-end;
     }
-@media only screen and (max-width:10000px) {
-    .navList {
-        font-size: 50px;
-    }
-}
-@media only screen and (max-width:10000px) {
-    .project-link {
-        font-size: 30px;
-    }
-}
 
     ul {
         display: none;
         background-color: #2b2c38;
         margin: 0px;
+        font-size: 50px;
     }
     
     ul.show {
@@ -233,5 +217,14 @@ a {
 
     .logo {
         display: none;
+    }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-link {
+        font-size: 30px;
     }
 }
