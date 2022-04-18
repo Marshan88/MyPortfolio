@@ -211,6 +211,8 @@ a {
         display: flex;
         flex-direction: column-reverse;
         background-color: #2b2c38;
+        position: fixed;
+        width: 100%;
     }
 
     .logo {
