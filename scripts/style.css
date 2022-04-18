@@ -26,27 +26,28 @@ section {
     padding: 80px;
 }
 
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
 .project-card {
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 15px rgb(83, 83, 83);
     margin: 10px;
+    cursor: pointer;
 }
 
-.project-container {
-    display: flex;
-    justify-content: space-around;
-}
 .project-image {
-    margin-top: 25px;
     width: 250px;
     border-radius: 5px;
-    height: auto;
+    height: 140px;
+    margin: 10px 10px;
 }
 
 .project-link {
     text-decoration: none;
-    color: #ef744b;
+    color: black;
 }
 
 footer {
@@ -62,8 +63,7 @@ ul {
     justify-content: space-around;
     width: 550px;
     font-size: 30px;
-    justify-content: space-around;
-        
+    justify-content: space-around;        
 }
 
 li {
@@ -97,10 +97,24 @@ svg:hover {
     font-size: 15px;
     font-weight: 300;
     padding: 18px;
+    color: black;
+    justify-content: center;
     }
 
-.subtext-link {
-    font-size: 15px;
+.subtext-hr {
+    height: 10%;
+}
+
+.subtext-hr2 {
+    height: 24%;
+}
+
+.subtext-hr3 {
+    height: 29%;
+}
+
+.subtext-hr4 {
+    height: 24%;
 }
 
 .main-area {
@@ -143,16 +157,16 @@ svg:hover {
 }
 
 .socials {
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 
 .social {
     margin: 20px;
 }
 
-.reverse {
+/* .reverse {
     transform: scale(-1,1);
-}
+} */
 
 .logo {
     height: 120px;

@@ -19,7 +19,7 @@ function view() {
     <div class="main-text">
         <h1>Marius</h1>
         <h1>Henriksen</h1>
-        <p>IT-Student at</p>
+        <p>IT Student at</p>
         <a href="https://www.getacademy.no/" style="color: orange">GET Academy</a>
         <div class="button"><a href="#about-me">About me</a></div>
     </div>
@@ -44,7 +44,7 @@ function view() {
 <section class="sub-section-alternative" id="projects">
 <h2>Projects</h2>
 <div class="project-container">
-    <div class="project-card">
+    <div onclick="location.href='https://marshan88.github.io/Starling'" class="project-card">
         <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling app image" />
         <h3>Starling</h3>
         <hr/>
@@ -52,34 +52,30 @@ function view() {
             The goal of the application is to measure different
             groups development according to Tuckman's theory,
             using surveys.</p>
-        <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Starling">View</a></p>
+        <p class="subtext-hr"><hr/></p>
     </div>
-    <div class="project-card">
+    <div onclick="location.href='https://github.com/Marshan88/CSharpProjects'" class="project-card">
         <img class="project-image" src="scripts/images/CsharpGames.PNG" alt="C# Image" />
         <h3>C# projects</h3>
         <hr/>
         <p class="subtext">Here you can take a look at my C# projects.<br>
-            This link takes you to github.</p>
-        <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://github.com/Marshan88/CSharpProjects">View</a></p>
+            This takes you to github.</p>
+        <p class="subtext-hr2"><hr/></p>
     </div>
-    <div class="project-card">
+    <div onclick="location.href='https://marshan88.github.io/ClickerGame'" class="project-card">
         <img class="project-image" src="scripts/images/Clicker-game.PNG" alt="Clicker game Image" />
         <h3>Clicker game</h3>
         <hr/>
         <p class="subtext">One of my first projects,<br>it is
             what it is..</p>
-        <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/ClickerGame">View</a></p>
+        <p class="subtext-hr3"><hr/></p>
     </div>
-        <div class="project-card">
+    <div onclick="location.href='https://marshan88.github.io/Zelda/'" class="project-card">
         <img class="project-image" src="scripts/images/Zelda-MissingLinks.PNG" alt="Zelda Image" />
         <h3>Zelda - Missing Links</h3>
         <hr/>
         <p class="subtext">How to play:<br>-Arrows to move<br>-Space for bomb<br></p>
-        <hr/>
-        <p class="subtext-link"><a class="project-link" href="https://marshan88.github.io/Zelda/">View</a></p>
+        <p class="subtext-hr4"><hr/></p>
     </div>
 </div>
 </section>
