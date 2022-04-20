@@ -220,18 +220,16 @@ svg:hover {
     ul {
         display: none;
         background-color: #2b2c38;
-        font-size: 50px;
+        font-size: 70px;
     }
 
     ul#navList.show {
         margin: 0px 0px 0px 0px;
     }
 
-    a.navList {        
-        padding: 20px 50px 26px 50px;
-        margin: 0px 0px 0px 0px;
-        /* margin: -20px; */
-        line-height: 120px;
+    a.navList {
+        position: relative;
+        padding: 0px 50px 6px 50px;
     }
     
     ul.show {
