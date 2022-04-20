@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    width: 100%;
 }
 
 html {
@@ -13,7 +12,6 @@ html {
     height: 100vh;
     color: white;
     font-size: 40px;
-    width: 100%;    
 }
 
 .main-area {
@@ -207,7 +205,7 @@ svg:hover {
 }
 
                                  /* 480px */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 480px) {
     .hamburger {
         display: block;
         border: 0;
