@@ -68,7 +68,7 @@ ul {
     justify-content: space-around;
     width: 550px;
     font-size: 30px;
-    justify-content: space-around;        
+    justify-content: space-around;
 }
 
 li {
@@ -197,6 +197,7 @@ svg:hover {
 
 .hamburger {
     display: none;
+
 }
 
 .hamburger:hover {
@@ -204,6 +205,7 @@ svg:hover {
     cursor: pointer;
 }
 
+                                 /* 480px */
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
@@ -218,8 +220,18 @@ svg:hover {
     ul {
         display: none;
         background-color: #2b2c38;
-        margin: 40px;
         font-size: 50px;
+    }
+
+    ul#navList.show {
+        margin: 0px 0px 0px 0px;
+    }
+
+    a.navList {        
+        padding: 20px 50px 26px 50px;
+        margin: 0px 0px 0px 0px;
+        /* margin: -20px; */
+        line-height: 120px;
     }
     
     ul.show {
