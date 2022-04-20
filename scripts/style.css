@@ -262,6 +262,7 @@ svg:hover {
 
     .project-container {
         display: flex;
+        flex-wrap: wrap;
     }
     
     .project-card {
