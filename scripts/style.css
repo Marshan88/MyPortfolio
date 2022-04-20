@@ -213,14 +213,16 @@ svg:hover {
         background-color: transparent;
         color: white;
         font-size: 50px;
-        margin: 10px;
+        /* margin: 20px 20px 20px 20px; */
+        padding: 20px 20px 20px 50px;
         align-self: flex-end;
+        /* position: relative; */
     }
 
     ul {
         display: none;
         background-color: #2b2c38;
-        font-size: 70px;
+        font-size: 60px;
     }
 
     ul#navList.show {
@@ -229,7 +231,7 @@ svg:hover {
 
     a.navList {
         position: relative;
-        padding: 0px 50px 6px 50px;
+        padding: 0px 100px 6px 50px;
     }
     
     ul.show {
