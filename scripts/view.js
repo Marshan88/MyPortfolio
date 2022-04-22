@@ -44,6 +44,7 @@ function view() {
 <section class="sub-section-alternative" id="projects">
 <h2>Projects</h2>
 <div class="project-container">
+<div class="project-container-center">
     <div onclick="location.href='https://marshan88.github.io/Starling'" class="project-card">
         <img class="project-image" src="scripts/images/CSS.PNG" alt="Starling app image" />
         <h3>Starling</h3>
@@ -77,6 +78,7 @@ function view() {
         <p class="subtext">How to play:<br>-Arrows to move<br>-Space for bomb<br></p>
         <p class="subtext-hr4"><hr/></p>
     </div>
+</div>
 </div>
 </section>
 </div>

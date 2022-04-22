@@ -4,7 +4,7 @@ body {
 }
 
 html {
-    overflow-x:hidden;  
+    overflow-x: hidden;  
 }
 
 .main {
@@ -46,8 +46,14 @@ section {
     display: flex;
     justify-content: space-around;
 }
+
+.project-container-center {
+    display: flex;
+    justify-content: space-around;
+}
+
 .project-card {
-    width: 300px;
+    width: 280px;
     height: 500px;
     box-shadow: 5px 5px 15px rgb(83, 83, 83);
     margin: 10px;
