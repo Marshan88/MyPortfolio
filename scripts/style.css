@@ -3,14 +3,6 @@ body {
     margin: 0;
 }
 
-#main-bg {
-    background-image: url('./images/BG.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    
-}
-
 html {
     overflow-x: hidden;  
 }
@@ -20,6 +12,14 @@ html {
     height: 100vh;
     color: white;
     font-size: 40px;
+}
+
+#main-bg {
+    background-image: url('./images/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    
 }
 
 .main-area {
@@ -276,6 +276,11 @@ svg:hover {
 
     .project-container {
         display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-container-center {
+        display:flex;
         flex-wrap: wrap;
     }
     
