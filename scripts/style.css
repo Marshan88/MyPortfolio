@@ -14,13 +14,13 @@ html {
     font-size: 40px;
 }
 
-#main-bg {
+/* #main-bg {
     background-image: url('./images/BG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
     
-}
+} */
 
 .main-area {
     display: flex;
