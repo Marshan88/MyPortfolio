@@ -8,18 +8,14 @@ html {
 }
 
 .main {
-    background-color: #1c1d25;
-    height: 100vh;
-    color: white;
-    font-size: 40px;
-}
-
-#main-bg {
     background-image: url('./images/BG.jpg');
+    background-color: #1c1d25;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    
+    height: 100vh;
+    color: white;
+    font-size: 40px;
 }
 
 .main-area {
