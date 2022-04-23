@@ -3,7 +3,7 @@ function view() {
     let html = '';
     html +=/*html*/`
 <div class="transparent-filter">
-<section class="main">
+<section class="main" id="main-bg">
 <nav>
     <img class="logo" src="scripts/images/Logo.png" alt="logo">
     <ul id="navList">

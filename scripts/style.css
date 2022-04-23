@@ -3,6 +3,14 @@ body {
     margin: 0;
 }
 
+#main-bg {
+    background-image: url('./images/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
 html {
     overflow-x: hidden;  
 }
