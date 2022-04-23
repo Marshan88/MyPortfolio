@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 
-/* html {
+html {
     overflow-x: hidden;  
-} */
+}
 
 .main {
     background-color: #1c1d25;
