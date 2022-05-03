@@ -286,9 +286,4 @@ svg:hover {
         zoom: 150%;
         margin: 20px;
     }
-
-    .project-container-center {
-        display:flex;
-        flex-wrap: wrap;
-    }
 }
