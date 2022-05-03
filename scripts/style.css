@@ -8,9 +8,9 @@ html {
 }
 
 .main {
-    background-image: url('./images/BG.jpg');
+    /* background-image: url('./images/BG.jpg'); */
     background-color: #1c1d25;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-blend-mode: darken;
     height: 100vh;
     color: white;
@@ -284,5 +284,10 @@ svg:hover {
     .project-card {
         zoom: 150%;
         margin: 20px;
+    }
+
+    .project-container-center {
+        display:flex;
+        flex-wrap: wrap;
     }
 }
