@@ -11,7 +11,6 @@ html {
     background-image: url('./images/BG.jpg');
     background-color: #1c1d25;
     background-repeat: no-repeat;
-    background-size: cover;
     background-blend-mode: darken;
     height: 100vh;
     color: white;
@@ -263,11 +262,13 @@ svg:hover {
     }
 
     .social {
-        margin: 0px 20px 0px 0px;        
+        display: none;
+        /* margin: 0px 20px 0px 0px;         */
     }
 
     .socials {
-        align-self: auto;
+        display: none;
+        /* align-self: auto; */
     }
 
     .project-container {
