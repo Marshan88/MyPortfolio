@@ -264,15 +264,12 @@ svg:hover {
     }
 
     .social {
-        overflow: hidden;
-        /* display: none; */
         margin: 0px 20px 0px 0px;
     }
 
     .socials {
-        overflow: hidden;
-        /* display: none; */
-        align-self: auto;
+        margin: 0px 20px 0px 0px;
+        zoom: 120%;
     }
 
     .project-container {
