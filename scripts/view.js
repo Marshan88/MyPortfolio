@@ -54,7 +54,7 @@ function view() {
             using surveys.</p>
         <p class="subtext-hr"><hr/></p>
     </div>
-    <div onclick="location.href='https://github.com/Marshan88/CSharpProjects'" class="project-card">
+    <div onclick="location.href='https://github.com/Marshan88/AdventureGame'" class="project-card">
         <img class="project-image" src="scripts/images/CsharpGames.PNG" alt="C# Image" />
         <h3>C#</h3>
         <hr/>
