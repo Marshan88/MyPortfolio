@@ -1,7 +1,7 @@
 view();
 function view() {
-    let html = '';
-    html +=/*html*/`
+  let html = "";
+  html += /*html*/ `
 
 <section class="main">
 <nav>
@@ -85,6 +85,6 @@ function view() {
 <h2>Contact me</h2>
 <p><a href="mailto:mariusshenriksen@gmail.com">mariusshenriksen@gmail.com</a></p>
 </footer>
-`
-    document.getElementById('app').innerHTML = html;
+`;
+  document.getElementById("app").innerHTML = html;
 }
