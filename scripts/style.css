@@ -55,10 +55,6 @@ a {
   color: white;
 }
 
-svg:hover {
-  fill: orange;
-}
-
 section {
   background-color: white;
 }
@@ -119,8 +115,6 @@ section {
 }
 
 .button:hover {
-  background-color: #ef744b;
-  color: orange;
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -128,11 +122,6 @@ section {
 .button:not(:hover) {
   transform: scale(1);
   transition: 0.5s;
-}
-
-.button:active {
-  background-color: #a9a9a9;
-  color: #808080;
 }
 
 .logo {
@@ -233,6 +222,19 @@ nav {
 
 .social {
   margin: 0px 20px 0px 0px;
+}
+
+svg {
+  margin: 0px 0px 0px 20px;
+}
+svg:hover {
+  fill: orange;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+svg:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
 }
 
 /************* Footer CSS *************/
