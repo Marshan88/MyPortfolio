@@ -1,7 +1,10 @@
 /************* Default CSS *************/
+/* body::-webkit-scrollbar {
+  display: none;
+} */
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   overflow-x: hidden;
 }
@@ -106,11 +109,25 @@ section {
 
 .button > a:hover {
   color: white;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.button > a:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
 }
 
 .button:hover {
   background-color: #ef744b;
   color: orange;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.button:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
 }
 
 .button:active {
@@ -123,7 +140,6 @@ section {
   margin: 30px;
   margin-left: 80px;
 }
-
 
 /************* Navigation CSS *************/
 
@@ -162,7 +178,14 @@ nav {
 
 .project-card:hover {
   background-color: rgba(255, 166, 0, 0.624);
-  transition: 1s;
+  transition: 0.5s;
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+.project-card:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
 }
 
 .project-image {
@@ -292,9 +315,7 @@ footer {
   }
 }
 
-@media screen and
-  (prefers-reduced-motion: reduce), 
-  (update: slow) {
+@media screen and (prefers-reduced-motion: reduce), (update: slow) {
   * {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important; /* (https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/#comment-1700170) */
