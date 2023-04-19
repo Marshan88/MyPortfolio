@@ -18,7 +18,6 @@ function view() {
 <div class="main-area">
     <div class="main-text">
         <h1>Marius</h1>
-        <h1>Henriksen</h1>
         <p>IT Student at</p>
         <a href="https://www.getacademy.no/" style="color: orange">GET Academy</a>
         <div class="button"><a href="#about-me">About me</a></div>
